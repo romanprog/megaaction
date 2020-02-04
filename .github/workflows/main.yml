@@ -11,4 +11,4 @@ jobs:
       id: hello
       uses: romanprog/megaaction@master
       with:
-        who-to-greet: 'Arti'
+        hello-n: 'Arti'
