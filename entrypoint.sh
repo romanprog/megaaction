@@ -1,5 +1,7 @@
 #!/bin/sh
 
-echo "Helo action!"
+echo "Helo $1!"
+
 
 sleep 60
+
