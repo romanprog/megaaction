@@ -1,4 +1,4 @@
-#!/bin/sh -1
+#!/bin/sh -l
 
 echo "Helo $1!"
 
