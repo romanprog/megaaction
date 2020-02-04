@@ -1,8 +1,8 @@
 #!/bin/sh -l
 
+echo $@
+env
 echo "Helo $1"
 
-
-sleep 60
 
 
