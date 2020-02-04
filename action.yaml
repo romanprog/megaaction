@@ -1,0 +1,15 @@
+name: 'Say hello'
+description: 'Test github action publish'
+inputs:
+  name:
+    description: 'Test inputs'
+    required: true
+    default: 'World'
+outputs:
+  status:
+    description: 'Status'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.name }}
